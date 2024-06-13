@@ -122,9 +122,6 @@ namespace Hospital_Mangement_System
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-            Rooms rooms = new Rooms();
-            rooms.Show();
-            this.Hide();
         }
 
         private void btnWardAdmission_Click(object sender, EventArgs e)

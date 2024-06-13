@@ -35,3 +35,40 @@ D:\Computer Science Stuff\4rth Semester\DBMS Lab\PROJECT\Hospital Mangement Syst
 D:\Computer Science Stuff\4rth Semester\DBMS Lab\PROJECT\Hospital Mangement System\obj\Debug\Hospital Mangement System.exe
 D:\Computer Science Stuff\4rth Semester\DBMS Lab\PROJECT\Hospital Mangement System\obj\Debug\Hospital Mangement System.pdb
 D:\Computer Science Stuff\4rth Semester\DBMS Lab\PROJECT\Hospital Mangement System\bin\Debug\Hospital Mangement System.pdb
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\bin\Debug\Hospital Mangement System.exe.config
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\bin\Debug\Hospital Mangement System.exe
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\bin\Debug\Hospital Mangement System.pdb
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\bin\Debug\Guna.UI.dll
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital Mangement System.csproj.AssemblyReference.cache
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Admin.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Appointment.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Attendance.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Billing.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.BloodDonor.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Department.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Diagnosis.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Doctor.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Equipment.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Form1.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.LabTest.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.MaintenanceLog.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Medicine.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.NurseWardStaff.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.OutGoingPatient.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Patient.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Prescription.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Properties.Resources.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Radiology.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Rooms.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.SecurityStaff.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Staff.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.Surgery.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.TransportStaff.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.User.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital_Mangement_System.WardAdmission.resources
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital Mangement System.csproj.GenerateResource.cache
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital Mangement System.csproj.CoreCompileInputs.cache
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital.9759638E.Up2Date
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital Mangement System.exe
+D:\Computer Science Stuff\4rth Semester\DBMS Lab\Hospital Management Project\Hospital Mangement System\obj\Debug\Hospital Mangement System.pdb

@@ -1,197 +1,197 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\",
+  "WorkspaceRootPath": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|d:\\computer science stuff\\4rth semester\\dbms lab\\project\\hospital mangement system\\diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\outgoingpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:outgoingpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\nursewardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:nursewardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\nursewardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:nursewardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\wardadmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:wardadmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\wardadmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:wardadmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\transportstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:transportstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\transportstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:transportstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\surgery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:surgery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\surgery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:surgery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\radiology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\radiology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:radiology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\radiology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\radiology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:radiology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\outgoingpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:outgoingpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\maintenancelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:maintenancelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\labtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:labtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\labtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:labtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|d:\\computer science stuff\\4rth semester\\dbms lab\\hospital management project\\hospital mangement system\\diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\outgoingpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:outgoingpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\nursewardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:nursewardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\nursewardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:nursewardstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\wardadmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:wardadmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\wardadmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:wardadmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\transportstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:transportstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\transportstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:transportstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\surgery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:surgery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\surgery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:surgery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\outgoingpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:outgoingpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\maintenancelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:maintenancelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\labtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:labtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\labtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:labtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\maintenancelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\maintenancelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FC6DA20E-1E5C-46DF-B68E-D2A4AD149394}|Hospital Mangement System.csproj|solutionrelative:maintenancelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -202,26 +202,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 41,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "User.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\User.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\User.cs [Design]",
-              "RelativeToolTip": "User.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\User.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T20:53:49.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "WardAdmission.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\WardAdmission.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\WardAdmission.cs",
               "RelativeDocumentMoniker": "WardAdmission.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\WardAdmission.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\WardAdmission.cs",
               "RelativeToolTip": "WardAdmission.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,22 +229,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "WardAdmission.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\WardAdmission.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\WardAdmission.cs",
               "RelativeDocumentMoniker": "WardAdmission.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\WardAdmission.cs [Design]",
-              "RelativeToolTip": "WardAdmission.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\WardAdmission.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:29:00.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "TransportStaff.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\TransportStaff.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\TransportStaff.cs",
               "RelativeDocumentMoniker": "TransportStaff.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\TransportStaff.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\TransportStaff.cs",
               "RelativeToolTip": "TransportStaff.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAvwFsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -252,22 +252,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "TransportStaff.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\TransportStaff.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\TransportStaff.cs",
               "RelativeDocumentMoniker": "TransportStaff.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\TransportStaff.cs [Design]",
-              "RelativeToolTip": "TransportStaff.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\TransportStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:57.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Surgery.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Surgery.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Surgery.cs",
               "RelativeDocumentMoniker": "Surgery.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Surgery.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Surgery.cs",
               "RelativeToolTip": "Surgery.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAvwFQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,22 +275,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Surgery.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Surgery.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Surgery.cs",
               "RelativeDocumentMoniker": "Surgery.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Surgery.cs [Design]",
-              "RelativeToolTip": "Surgery.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Surgery.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:56.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Staff.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Staff.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Staff.cs",
               "RelativeDocumentMoniker": "Staff.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Staff.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Staff.cs",
               "RelativeToolTip": "Staff.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAvwFQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -298,22 +298,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Staff.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Staff.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Staff.cs",
               "RelativeDocumentMoniker": "Staff.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Staff.cs [Design]",
-              "RelativeToolTip": "Staff.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Staff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:56.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "SecurityStaff.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\SecurityStaff.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\SecurityStaff.cs",
               "RelativeDocumentMoniker": "SecurityStaff.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\SecurityStaff.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\SecurityStaff.cs",
               "RelativeToolTip": "SecurityStaff.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAvwFYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -321,68 +321,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "SecurityStaff.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\SecurityStaff.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\SecurityStaff.cs",
               "RelativeDocumentMoniker": "SecurityStaff.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\SecurityStaff.cs [Design]",
-              "RelativeToolTip": "SecurityStaff.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\SecurityStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:54.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 6,
               "Title": "Rooms.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Rooms.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Rooms.cs",
               "RelativeDocumentMoniker": "Rooms.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Rooms.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Rooms.cs",
               "RelativeToolTip": "Rooms.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAvwGMAAAAqAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAGoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:32:52.666Z"
+              "WhenOpened": "2024-06-12T19:32:52.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 7,
               "Title": "Rooms.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Rooms.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Rooms.cs",
               "RelativeDocumentMoniker": "Rooms.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Rooms.cs [Design]",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Rooms.cs [Design]",
               "RelativeToolTip": "Rooms.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:28:53.197Z"
+              "WhenOpened": "2024-06-12T19:28:53.197Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 0,
               "Title": "Radiology.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Radiology.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Radiology.cs",
               "RelativeDocumentMoniker": "Radiology.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Radiology.cs",
-              "RelativeToolTip": "Radiology.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAvwF0AAAAAAAAA",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Radiology.cs*",
+              "RelativeToolTip": "Radiology.cs*",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAiwHsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:32:42.781Z"
+              "WhenOpened": "2024-06-12T19:32:42.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 1,
               "Title": "Radiology.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Radiology.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Radiology.cs",
               "RelativeDocumentMoniker": "Radiology.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Radiology.cs [Design]",
-              "RelativeToolTip": "Radiology.cs [Design]",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Radiology.cs [Design]*",
+              "RelativeToolTip": "Radiology.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:28:52.266Z"
+              "WhenOpened": "2024-06-12T19:28:52.266Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Prescription.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Prescription.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Prescription.cs",
               "RelativeDocumentMoniker": "Prescription.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Prescription.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Prescription.cs",
               "RelativeToolTip": "Prescription.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAvwFYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -390,22 +394,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Prescription.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Prescription.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Prescription.cs",
               "RelativeDocumentMoniker": "Prescription.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Prescription.cs [Design]",
-              "RelativeToolTip": "Prescription.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Prescription.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:50.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "OutGoingPatient.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\OutGoingPatient.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\OutGoingPatient.cs",
               "RelativeDocumentMoniker": "OutGoingPatient.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\OutGoingPatient.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\OutGoingPatient.cs",
               "RelativeToolTip": "OutGoingPatient.cs",
               "ViewState": "AQIAAF0AAAAAAAAAAAAvwG0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -413,22 +417,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "OutGoingPatient.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\OutGoingPatient.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\OutGoingPatient.cs",
               "RelativeDocumentMoniker": "OutGoingPatient.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\OutGoingPatient.cs [Design]",
-              "RelativeToolTip": "OutGoingPatient.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\OutGoingPatient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:49.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "NurseWardStaff.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\NurseWardStaff.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\NurseWardStaff.cs",
               "RelativeDocumentMoniker": "NurseWardStaff.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\NurseWardStaff.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\NurseWardStaff.cs",
               "RelativeToolTip": "NurseWardStaff.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -436,22 +440,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "NurseWardStaff.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\NurseWardStaff.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\NurseWardStaff.cs",
               "RelativeDocumentMoniker": "NurseWardStaff.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\NurseWardStaff.cs [Design]",
-              "RelativeToolTip": "NurseWardStaff.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\NurseWardStaff.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:48.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "MaintenanceLog.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\MaintenanceLog.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\MaintenanceLog.cs",
               "RelativeDocumentMoniker": "MaintenanceLog.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\MaintenanceLog.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\MaintenanceLog.cs",
               "RelativeToolTip": "MaintenanceLog.cs",
               "ViewState": "AQIAAFUAAAAAAAAAAAAYwGUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -461,20 +465,20 @@
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "MaintenanceLog.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\MaintenanceLog.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\MaintenanceLog.cs",
               "RelativeDocumentMoniker": "MaintenanceLog.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\MaintenanceLog.cs [Design]",
-              "RelativeToolTip": "MaintenanceLog.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\MaintenanceLog.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:46.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "LabTest.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\LabTest.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\LabTest.cs",
               "RelativeDocumentMoniker": "LabTest.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\LabTest.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\LabTest.cs",
               "RelativeToolTip": "LabTest.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAvwFIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -482,22 +486,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "LabTest.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\LabTest.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\LabTest.cs",
               "RelativeDocumentMoniker": "LabTest.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\LabTest.cs [Design]",
-              "RelativeToolTip": "LabTest.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\LabTest.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:45.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Equipment.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Equipment.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Equipment.cs",
               "RelativeDocumentMoniker": "Equipment.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Equipment.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Equipment.cs",
               "RelativeToolTip": "Equipment.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAvwFkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -505,22 +509,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Equipment.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Equipment.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Equipment.cs",
               "RelativeDocumentMoniker": "Equipment.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Equipment.cs [Design]",
-              "RelativeToolTip": "Equipment.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Equipment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:43.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Department.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Department.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Department.cs",
               "RelativeDocumentMoniker": "Department.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Department.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Department.cs",
               "RelativeToolTip": "Department.cs",
               "ViewState": "AQIAAFMAAAAAAAAAAIA8wGMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -528,22 +532,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Department.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Department.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Department.cs",
               "RelativeDocumentMoniker": "Department.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Department.cs [Design]",
-              "RelativeToolTip": "Department.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Department.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:41.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "BloodDonor.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\BloodDonor.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\BloodDonor.cs",
               "RelativeDocumentMoniker": "BloodDonor.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\BloodDonor.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\BloodDonor.cs",
               "RelativeToolTip": "BloodDonor.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAvwFQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -551,22 +555,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "BloodDonor.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\BloodDonor.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\BloodDonor.cs",
               "RelativeDocumentMoniker": "BloodDonor.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\BloodDonor.cs [Design]",
-              "RelativeToolTip": "BloodDonor.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\BloodDonor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:40.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Billing.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Billing.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Billing.cs",
               "RelativeDocumentMoniker": "Billing.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Billing.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Billing.cs",
               "RelativeToolTip": "Billing.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAvwFUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -574,22 +578,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Billing.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Billing.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Billing.cs",
               "RelativeDocumentMoniker": "Billing.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Billing.cs [Design]",
-              "RelativeToolTip": "Billing.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Billing.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:39.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Attendance.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Attendance.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Attendance.cs",
               "RelativeDocumentMoniker": "Attendance.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Attendance.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Attendance.cs",
               "RelativeToolTip": "Attendance.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAvwFUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -597,22 +601,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Attendance.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Attendance.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Attendance.cs",
               "RelativeDocumentMoniker": "Attendance.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Attendance.cs [Design]",
-              "RelativeToolTip": "Attendance.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Attendance.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:39.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Appointment.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Appointment.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Appointment.cs",
               "RelativeDocumentMoniker": "Appointment.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Appointment.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Appointment.cs",
               "RelativeToolTip": "Appointment.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAvwFUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -620,22 +624,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Appointment.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Appointment.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Appointment.cs",
               "RelativeDocumentMoniker": "Appointment.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Appointment.cs [Design]",
-              "RelativeToolTip": "Appointment.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Appointment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:38.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Medicine.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Medicine.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Medicine.cs",
               "RelativeDocumentMoniker": "Medicine.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Medicine.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Medicine.cs",
               "RelativeToolTip": "Medicine.cs",
               "ViewState": "AQIAAKUAAAAAAAAAAAAvwLUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -643,47 +647,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Medicine.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Medicine.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Medicine.cs",
               "RelativeDocumentMoniker": "Medicine.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Medicine.cs [Design]",
-              "RelativeToolTip": "Medicine.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Medicine.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:47.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Doctor.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Doctor.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Doctor.cs",
               "RelativeDocumentMoniker": "Doctor.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Doctor.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Doctor.cs",
               "RelativeToolTip": "Doctor.cs",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAhwLIAAAAQAAAA",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAowNMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:31:15.253Z"
+              "WhenOpened": "2024-06-12T19:31:15.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 3,
               "Title": "Doctor.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Doctor.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Doctor.cs",
               "RelativeDocumentMoniker": "Doctor.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Doctor.cs [Design]",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Doctor.cs [Design]",
               "RelativeToolTip": "Doctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:28:42.755Z"
+              "WhenOpened": "2024-06-12T19:28:42.755Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Diagnosis.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Diagnosis.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Diagnosis.cs",
               "RelativeDocumentMoniker": "Diagnosis.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Diagnosis.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Diagnosis.cs",
               "RelativeToolTip": "Diagnosis.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAhwFQAAAAbAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAhwGAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:29:20.592Z",
               "EditorCaption": ""
@@ -692,20 +698,20 @@
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "Diagnosis.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Diagnosis.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Diagnosis.cs",
               "RelativeDocumentMoniker": "Diagnosis.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Diagnosis.cs [Design]",
-              "RelativeToolTip": "Diagnosis.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Diagnosis.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:41.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Patient.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Patient.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Patient.cs",
               "RelativeDocumentMoniker": "Patient.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Patient.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Patient.cs",
               "RelativeToolTip": "Patient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -715,44 +721,46 @@
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "Patient.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Patient.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Patient.cs",
               "RelativeDocumentMoniker": "Patient.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Patient.cs [Design]",
-              "RelativeToolTip": "Patient.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Patient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T19:28:50.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Admin.cs",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Admin.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Admin.cs",
               "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Admin.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Admin.cs",
               "RelativeToolTip": "Admin.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAmwFYAAAAoAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwFcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T20:53:11.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Admin.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Admin.cs",
-              "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Admin.cs [Design]",
-              "RelativeToolTip": "Admin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T19:28:37.286Z"
+              "WhenOpened": "2024-06-12T20:53:11.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Admin.cs [Design]",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Admin.cs",
+              "RelativeDocumentMoniker": "Admin.cs",
+              "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Admin.cs [Design]",
+              "RelativeToolTip": "Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:28:37.286Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Form1.cs",
+              "DocumentMoniker": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\Hospital Management Project\\Hospital Mangement System\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Computer Science Stuff\\4rth Semester\\DBMS Lab\\PROJECT\\Hospital Mangement System\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\PROJECT\\Hospital Mangement System\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T20:54:02.562Z"
             }

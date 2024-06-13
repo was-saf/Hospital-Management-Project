@@ -525,10 +525,809 @@ INSERT INTO Admin (AdminID,Username,Password) VALUES
 (3,'murtaza','123'),
 (4,'admin','123');
 
-select * from Doctor;
+-- Here are the SQL commands to create views for each table in the given database schema. 
 
-select * from Patient;
+--Department View
+CREATE VIEW DepartmentView AS
+SELECT DepartmentID, DepartmentName, Description
+FROM Department;
 
-select * from Department;
+--Staff View
+CREATE VIEW StaffView AS
+SELECT StaffID, StaffName, ContactNumber, Salary, Shift, JoiningDate
+FROM Staff;
 
-SELECT * FROM Medicine;
+-- Security Staff View
+CREATE VIEW SecurityStaffView AS
+SELECT s.StaffID, s.Role, d.DepartmentName
+FROM SecurityStaff s
+JOIN Department d ON s.DepartmentID = d.DepartmentID;
+
+--Transport Staff View
+CREATE VIEW TransportStaffView AS
+SELECT s.StaffID, s.Role, d.DepartmentName
+FROM TransportStaff s
+JOIN Department d ON s.DepartmentID = d.DepartmentID;
+
+-- Ward Boys/Nurse Staff View
+CREATE VIEW NurseWardStaffView AS
+SELECT s.StaffID, s.Role, d.DepartmentName
+FROM NurseWardStaff s
+JOIN Department d ON s.DepartmentID = d.DepartmentID;
+
+--Medicine View
+CREATE VIEW MedicineView AS
+SELECT MedicineID, MedicineName, Manufacturer, QuantityAvailable, ExpiryDate, UnitPrice, Category
+FROM Medicine;
+
+-- Patient View
+CREATE VIEW PatientView AS
+SELECT PatientID, PatientName, Age, Gender, BloodGroup, ContactNumber, Address, MedicalHistory
+FROM Patient;
+
+--Doctor View
+CREATE VIEW DoctorView AS
+SELECT DoctorID, DoctorName, Specialization, ContactNumber, DepartmentName
+FROM Doctor
+JOIN Department ON Doctor.DepartmentID = Department.DepartmentID;
+
+-- Appointment View
+CREATE VIEW AppointmentView AS
+SELECT AppointmentID, PatientName, DoctorName, AppointmentDate, AppointmentTime, Status
+FROM Appointment
+JOIN Patient ON Appointment.PatientID = Patient.PatientID
+JOIN Doctor ON Appointment.DoctorID = Doctor.DoctorID;
+
+-- Room View
+CREATE VIEW RoomView AS
+SELECT RoomID, RoomType, Availability, DepartmentName
+FROM Room
+JOIN Department ON Room.DepartmentID = Department.DepartmentID;
+
+-- Blood Donor View
+CREATE VIEW BloodDonorView AS
+SELECT DonorID, DonorName, BloodGroup, DonationDate, DonationPlace, ContactNumber
+FROM BloodDonor;
+
+--Ward Admission View
+CREATE VIEW WardAdmissionView AS
+SELECT AdmissionID, PatientName, WardNumber, BedNumber, AdmissionDate, DischargeDate, DischargeReason
+FROM WardAdmission
+JOIN Patient ON WardAdmission.PatientID = Patient.PatientID;
+
+--Maintenance Log View
+CREATE VIEW MaintenanceLogView AS
+SELECT LogID, EquipmentName, MaintenanceDate, MaintenanceType, StaffName
+FROM MaintenanceLog
+JOIN Equipment ON MaintenanceLog.EquipmentID = Equipment.EquipmentID
+JOIN Staff ON MaintenanceLog.TechnicianID = Staff.StaffID;
+
+--Diagnosis View
+CREATE VIEW DiagnosisView AS
+SELECT DiagnosisID, PatientName, DoctorName, DiagnosisDate, DiagnosisDescription, TreatmentPlan
+FROM Diagnosis
+JOIN Patient ON Diagnosis.PatientID = Patient.PatientID
+JOIN Doctor ON Diagnosis.DoctorID = Doctor.DoctorID;
+
+--Billing View
+CREATE VIEW BillingView AS
+SELECT BillingID, PatientName, TotalAmount, PaymentStatus, BillingDate
+FROM Billing
+JOIN Patient ON Billing.PatientID = Patient.PatientID;
+
+--Prescription View
+CREATE VIEW PrescriptionView AS
+SELECT PrescriptionID, PatientName, DoctorName, MedicineName, Dosage, Instructions, IssueDate
+FROM Prescription
+JOIN Patient ON Prescription.PatientID = Patient.PatientID
+JOIN Doctor ON Prescription.DoctorID = Doctor.DoctorID
+JOIN Medicine ON Prescription.MedicineID = Medicine.MedicineID;
+
+--Surgery View
+CREATE VIEW SurgeryView AS
+SELECT SurgeryID, SurgeryName, DoctorName, PatientName, SurgeryDate, SurgeryType
+FROM Surgery
+JOIN Doctor ON Surgery.DoctorID = Doctor.DoctorID
+JOIN Patient ON Surgery.PatientID = Patient.PatientID;
+
+--Attendance View
+CREATE VIEW AttendanceView AS
+SELECT AttendanceID, StaffName, Date, InTime, OutTime
+FROM Attendance
+JOIN Staff ON Attendance.StaffID = Staff.StaffID;
+
+--Equipment View
+CREATE VIEW EquipmentView AS
+SELECT EquipmentID, EquipmentName, QuantityAvailable, Condition, DepartmentName
+FROM Equipment
+JOIN Department ON Equipment.DepartmentID = Department.DepartmentID;
+
+--Lab Test View
+CREATE VIEW LabTestView AS
+SELECT TestID, TestName, TestCost, lt.Description, SampleType, DepartmentName, PatientName
+FROM LabTest lt
+JOIN Department ON lt.DepartmentID = Department.DepartmentID
+JOIN Patient ON lt.PatientID = Patient.PatientID;
+
+--Radiology Test View
+CREATE VIEW RadiologyTestView AS
+SELECT XrayID, XrayType, BodyPart, Result, DoctorName, PatientName
+FROM RadiologyTest
+JOIN Doctor ON RadiologyTest.DoctorID = Doctor.DoctorID
+JOIN Patient ON RadiologyTest.PatientID = Patient.PatientID;
+
+--Outpatient Prescription View
+CREATE VIEW OutpatientPrescriptionView AS
+SELECT PrescriptionID, PatientName, MedicineName, Quantity, DispensedDate, DispensedBy
+FROM OutpatientPrescription
+JOIN Patient ON OutpatientPrescription.PatientID = Patient.PatientID
+JOIN Medicine ON OutpatientPrescription.MedicineID = Medicine.MedicineID
+JOIN Staff ON OutpatientPrescription.DispensedBy = Staff.StaffID;
+
+--Here are the stored procedures for each table in the given database schema.
+
+-- Department Stored Procedure
+
+CREATE PROCEDURE sp_GetDepartmentDetails
+    @DepartmentID INT
+AS
+BEGIN
+    SELECT DepartmentName, Description
+    FROM Department
+    WHERE DepartmentID = @DepartmentID;
+END;
+
+-- Staff Stored Procedure
+
+CREATE PROCEDURE sp_GetStaffDetails
+    @StaffID INT
+AS
+BEGIN
+    SELECT StaffName, ContactNumber, Salary, Shift, JoiningDate
+    FROM Staff
+    WHERE StaffID = @StaffID;
+END;
+
+
+--Security Staff Stored Procedure
+
+CREATE PROCEDURE sp_GetSecurityStaffDetails
+    @StaffID INT
+AS
+BEGIN
+    SELECT s.Role, d.DepartmentName
+    FROM SecurityStaff s
+    JOIN Department d ON s.DepartmentID = d.DepartmentID
+    WHERE s.StaffID = @StaffID;
+END;
+
+
+-- Transport Staff Stored Procedure
+
+CREATE PROCEDURE sp_GetTransportStaffDetails
+    @StaffID INT
+AS
+BEGIN
+    SELECT s.Role, d.DepartmentName
+    FROM TransportStaff s
+    JOIN Department d ON s.DepartmentID = d.DepartmentID
+    WHERE s.StaffID = @StaffID;
+END;
+
+
+--Ward Boys/Nurse Staff Stored Procedure
+
+CREATE PROCEDURE sp_GetNurseWardStaffDetails
+    @StaffID INT
+AS
+BEGIN
+    SELECT s.Role, d.DepartmentName
+    FROM NurseWardStaff s
+    JOIN Department d ON s.DepartmentID = d.DepartmentID
+    WHERE s.StaffID = @StaffID;
+END;
+
+
+--Medicine Stored Procedure
+
+CREATE PROCEDURE sp_GetMedicineDetails
+    @MedicineID INT
+AS
+BEGIN
+    SELECT MedicineName, Manufacturer, QuantityAvailable, ExpiryDate, UnitPrice, Category
+    FROM Medicine
+    WHERE MedicineID = @MedicineID;
+END;
+
+
+--Patient Stored Procedure
+
+CREATE PROCEDURE sp_GetPatientDetails
+    @PatientID INT
+AS
+BEGIN
+    SELECT PatientName, Age, Gender, BloodGroup, ContactNumber, Address, MedicalHistory
+    FROM Patient
+    WHERE PatientID = @PatientID;
+END;
+
+
+--Doctor Stored Procedure
+
+CREATE PROCEDURE sp_GetDoctorDetails
+    @DoctorID INT
+AS
+BEGIN
+    SELECT DoctorName, Specialization, ContactNumber, DepartmentName
+    FROM Doctor
+    JOIN Department ON Doctor.DepartmentID = Department.DepartmentID
+    WHERE DoctorID = @DoctorID;
+END;
+
+
+--Appointment Stored Procedure
+
+CREATE PROCEDURE sp_GetAppointmentDetails
+    @AppointmentID INT
+AS
+BEGIN
+    SELECT p.PatientName, d.DoctorName, AppointmentDate, AppointmentTime, Status
+    FROM Appointment a
+    JOIN Patient p ON a.PatientID = p.PatientID
+    JOIN Doctor d ON a.DoctorID = d.DoctorID
+    WHERE AppointmentID = @AppointmentID;
+END;
+
+
+--Room Stored Procedure
+
+CREATE PROCEDURE sp_GetRoomDetails
+    @RoomID INT
+AS
+BEGIN
+    SELECT RoomType, Availability, DepartmentName
+    FROM Room
+    JOIN Department ON Room.DepartmentID = Department.DepartmentID
+    WHERE RoomID = @RoomID;
+END;
+
+
+--Billing Stored Procedure
+
+CREATE PROCEDURE sp_GetBillingDetails
+    @BillingID INT
+AS
+BEGIN
+    SELECT p.PatientName, TotalAmount, PaymentStatus, BillingDate
+    FROM Billing b
+    JOIN Patient p ON b.PatientID = p.PatientID
+    WHERE BillingID = @BillingID;
+END;
+
+
+--Prescription Stored Procedure
+
+CREATE PROCEDURE sp_GetPrescriptionDetails
+    @PrescriptionID INT
+AS
+BEGIN
+    SELECT p.PatientName, d.DoctorName, m.MedicineName, Dosage, Instructions, IssueDate
+    FROM Prescription pres
+    JOIN Doctor d ON pres.DoctorID = d.DoctorID
+    JOIN Medicine m ON pres.MedicineID = m.MedicineID
+	JOIN Patient p ON pres.PatientID = p.PatientID
+    WHERE PrescriptionID = @PrescriptionID;
+END;
+
+
+-- Surgery Stored Procedure
+
+CREATE PROCEDURE sp_GetSurgeryDetails
+    @SurgeryID INT
+AS
+BEGIN
+    SELECT SurgeryName, d.DoctorName, p.PatientName, SurgeryDate, SurgeryType
+    FROM Surgery s
+    JOIN Doctor d ON s.DoctorID = d.DoctorID
+    JOIN Patient p ON s.PatientID = p.PatientID
+    WHERE SurgeryID = @SurgeryID;
+END;
+
+
+--Attendance Stored Procedure
+
+CREATE PROCEDURE sp_GetAttendanceDetails
+    @StaffID INT
+AS
+BEGIN
+    SELECT Date, InTime, OutTime
+    FROM Attendance
+    WHERE StaffID = @StaffID;
+END;
+
+
+--Equipment Stored Procedure
+
+CREATE PROCEDURE sp_GetEquipmentDetails
+    @EquipmentID INT
+AS
+BEGIN
+    SELECT EquipmentName, QuantityAvailable, Condition, DepartmentName
+    FROM Equipment
+    JOIN Department ON Equipment.DepartmentID = Department.DepartmentID
+    WHERE EquipmentID = @EquipmentID;
+END;
+
+
+-- Lab Test Stored Procedure
+
+CREATE PROCEDURE sp_GetLabTestDetails
+    @TestID INT
+AS
+BEGIN
+    SELECT TestName, TestCost, lt.Description, SampleType, DepartmentName, PatientName
+    FROM LabTest lt
+    JOIN Department ON lt.DepartmentID = Department.DepartmentID
+    JOIN Patient ON lt.PatientID = Patient.PatientID
+    WHERE TestID = @TestID;
+END;
+
+
+--Radiology Test Stored Procedure
+
+CREATE PROCEDURE sp_GetRadiologyTestDetails
+    @XrayID INT
+AS
+BEGIN
+    SELECT XrayType, BodyPart, Result, DoctorName, PatientName
+    FROM RadiologyTest
+    JOIN Doctor ON RadiologyTest.DoctorID = Doctor.DoctorID
+    JOIN Patient ON RadiologyTest.PatientID = Patient.PatientID
+    WHERE XrayID = @XrayID;
+END;
+
+
+--Outpatient Prescription Stored Procedure
+
+CREATE PROCEDURE sp_GetOutpatientPrescriptionDetails
+    @PrescriptionID INT
+AS
+BEGIN
+    SELECT pat.PatientName, m.MedicineName, Quantity, DispensedDate, DispensedBy
+    FROM OutpatientPrescription p
+    JOIN Medicine m ON p.MedicineID = m.MedicineID
+    JOIN Staff s ON p.DispensedBy = s.StaffID
+	Join Patient pat ON p.PatientID = pat.PatientID
+    WHERE PrescriptionID = @PrescriptionID;
+END;
+
+
+-- Blood Donor Stored Procedure
+CREATE PROCEDURE sp_GetBloodDonorDetails
+    @DonorID INT
+AS
+BEGIN
+    SELECT DonorName, BloodGroup, DonationDate, DonationPlace, ContactNumber
+    FROM BloodDonor
+    WHERE DonorID = @DonorID;
+END;
+
+--Ward Admission Stored Procedure
+CREATE PROCEDURE sp_GetWardAdmissionDetails
+    @AdmissionID INT
+AS
+BEGIN
+    SELECT p.PatientName, WardNumber, BedNumber, AdmissionDate, DischargeDate, DischargeReason
+    FROM WardAdmission w
+    JOIN Patient p ON w.PatientID = p.PatientID
+    WHERE AdmissionID = @AdmissionID;
+END;
+
+--Diagnosis Stored Procedure
+CREATE PROCEDURE sp_GetDiagnosisDetails
+    @DiagnosisID INT
+AS
+BEGIN
+    SELECT p.PatientName, d.DoctorName, DiagnosisDate, DiagnosisDescription, TreatmentPlan
+    FROM Diagnosis di
+    JOIN Patient p ON di.PatientID = p.PatientID
+    JOIN Doctor d ON di.DoctorID = d.DoctorID
+    WHERE DiagnosisID = @DiagnosisID;
+END;
+
+--Here are the SQL functions for each table in the given database schema. 
+
+--Department Function
+CREATE FUNCTION fn_GetDepartmentName (@DepartmentID INT)
+RETURNS NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @DepartmentName NVARCHAR(100)
+    SELECT @DepartmentName = DepartmentName
+    FROM Department
+    WHERE DepartmentID = @DepartmentID
+    RETURN @DepartmentName
+END;
+
+
+--Staff Function
+CREATE FUNCTION fn_GetStaffName (@StaffID INT)
+RETURNS NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @StaffName NVARCHAR(100)
+    SELECT @StaffName = StaffName
+    FROM Staff
+    WHERE StaffID = @StaffID
+    RETURN @StaffName
+END;
+
+
+--Security Staff Function
+CREATE FUNCTION fn_GetSecurityStaffRole (@StaffID INT)
+RETURNS NVARCHAR(50)
+AS
+BEGIN
+    DECLARE @Role NVARCHAR(50)
+    SELECT @Role = Role
+    FROM SecurityStaff
+    WHERE StaffID = @StaffID
+    RETURN @Role
+END;
+
+
+--Transport Staff Function
+CREATE FUNCTION fn_GetTransportStaffRole (@StaffID INT)
+RETURNS NVARCHAR(50)
+AS
+BEGIN
+    DECLARE @Role NVARCHAR(50)
+    SELECT @Role = Role
+    FROM TransportStaff
+    WHERE StaffID = @StaffID
+    RETURN @Role
+END;
+
+
+--Ward Boys/Nurse Staff Function
+CREATE FUNCTION fn_GetNurseWardStaffRole (@StaffID INT)
+RETURNS NVARCHAR(50)
+AS
+BEGIN
+    DECLARE @Role NVARCHAR(50)
+    SELECT @Role = Role
+    FROM NurseWardStaff
+    WHERE StaffID = @StaffID
+    RETURN @Role
+END;
+
+
+-- Medicine Function
+CREATE FUNCTION fn_GetMedicineName (@MedicineID INT)
+RETURNS NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @MedicineName NVARCHAR(100)
+    SELECT @MedicineName = MedicineName
+    FROM Medicine
+    WHERE MedicineID = @MedicineID
+    RETURN @MedicineName
+END;
+
+
+--Patient Function
+CREATE FUNCTION fn_GetPatientName (@PatientID INT)
+RETURNS NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @PatientName NVARCHAR(100)
+    SELECT @PatientName = PatientName
+    FROM Patient
+    WHERE PatientID = @PatientID
+    RETURN @PatientName
+END;
+
+
+--Doctor Function
+CREATE FUNCTION fn_GetDoctorName (@DoctorID INT)
+RETURNS NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @DoctorName NVARCHAR(100)
+    SELECT @DoctorName = DoctorName
+    FROM Doctor
+    WHERE DoctorID = @DoctorID
+    RETURN @DoctorName
+END;
+
+
+--Appointment Function
+CREATE FUNCTION fn_GetAppointmentStatus (@AppointmentID INT)
+RETURNS NVARCHAR(50)
+AS
+BEGIN
+    DECLARE @Status NVARCHAR(50)
+    SELECT @Status = Status
+    FROM Appointment
+    WHERE AppointmentID = @AppointmentID
+    RETURN @Status
+END;
+
+-- Room Function
+CREATE FUNCTION fn_GetRoomAvailability (@RoomID INT)
+RETURNS BIT
+AS
+BEGIN
+    DECLARE @Availability BIT
+    SELECT @Availability = Availability
+    FROM Room
+    WHERE RoomID = @RoomID
+    RETURN @Availability
+END;
+
+
+--Billing Function
+CREATE FUNCTION fn_GetBillingAmount (@BillingID INT)
+RETURNS DECIMAL(10, 2)
+AS
+BEGIN
+    DECLARE @Amount DECIMAL(10, 2)
+    SELECT @Amount = TotalAmount
+    FROM Billing
+    WHERE BillingID = @BillingID
+    RETURN @Amount
+END;
+
+
+--Prescription Function
+CREATE FUNCTION fn_GetPrescriptionDosage (@PrescriptionID INT)
+RETURNS NVARCHAR(50)
+AS
+BEGIN
+    DECLARE @Dosage NVARCHAR(50)
+    SELECT @Dosage = Dosage
+    FROM Prescription
+    WHERE PrescriptionID = @PrescriptionID
+    RETURN @Dosage
+END;
+
+
+--Surgery Function
+CREATE FUNCTION fn_GetSurgeryType (@SurgeryID INT)
+RETURNS NVARCHAR(50)
+AS
+BEGIN
+    DECLARE @Type NVARCHAR(50)
+    SELECT @Type = SurgeryType
+    FROM Surgery
+    WHERE SurgeryID = @SurgeryID
+    RETURN @Type
+END;
+
+
+--Attendance Function
+CREATE FUNCTION fn_GetAttendanceDate (@AttendanceID INT)
+RETURNS DATE
+AS
+BEGIN
+    DECLARE @Date DATE
+    SELECT @Date = Date
+    FROM Attendance
+    WHERE AttendanceID = @AttendanceID
+    RETURN @Date
+END;
+
+
+-- Equipment Function
+CREATE FUNCTION fn_GetEquipmentCondition (@EquipmentID INT)
+RETURNS NVARCHAR(50)
+AS
+BEGIN
+    DECLARE @Condition NVARCHAR(50)
+    SELECT @Condition = Condition
+    FROM Equipment
+    WHERE EquipmentID = @EquipmentID
+    RETURN @Condition
+END;
+
+
+--Lab Test Function
+CREATE FUNCTION fn_GetLabTestCost (@TestID INT)
+RETURNS DECIMAL(10, 2)
+AS
+BEGIN
+    DECLARE @Cost DECIMAL(10, 2)
+    SELECT @Cost = TestCost
+    FROM LabTest
+    WHERE TestID = @TestID
+    RETURN @Cost
+END;
+
+
+-- Radiology Test Function
+CREATE FUNCTION fn_GetRadiologyTestResult (@XrayID INT)
+RETURNS NVARCHAR(255)
+AS
+BEGIN
+    DECLARE @Result NVARCHAR(255)
+    SELECT @Result = Result
+    FROM RadiologyTest
+    WHERE XrayID = @XrayID
+    RETURN @Result
+END;
+
+
+-- Outpatient Prescription Function
+CREATE FUNCTION fn_GetOutpatientPrescriptionQuantity (@PrescriptionID INT)
+RETURNS INT
+AS
+BEGIN
+    DECLARE @Quantity INT
+    SELECT @Quantity = Quantity
+    FROM OutpatientPrescription
+    WHERE PrescriptionID = @PrescriptionID
+    RETURN @Quantity
+END;
+
+
+-- Blood Donor Function
+CREATE FUNCTION fn_GetBloodDonorName (@DonorID INT)
+RETURNS NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @DonorName NVARCHAR(100)
+    SELECT @DonorName = DonorName
+    FROM BloodDonor
+    WHERE DonorID = @DonorID
+    RETURN @DonorName
+END;
+
+
+--Ward Admission Function
+CREATE FUNCTION fn_GetWardAdmissionDate (@AdmissionID INT)
+RETURNS DATE
+AS
+BEGIN
+    DECLARE @Date DATE
+    SELECT @Date = AdmissionDate
+    FROM WardAdmission
+    WHERE AdmissionID = @AdmissionID
+    RETURN @Date
+END;
+
+
+-- Maintenance Log Function
+CREATE FUNCTION fn_GetMaintenanceLogDetails (@LogID INT)
+RETURNS NVARCHAR(255)
+AS
+BEGIN
+    DECLARE @Details NVARCHAR(255)
+    SELECT @Details = Details
+    FROM MaintenanceLog
+    WHERE LogID = @LogID
+    RETURN @Details
+END;
+
+
+-- Diagnosis Function
+
+CREATE FUNCTION fn_GetDiagnosisDescription (@DiagnosisID INT)
+RETURNS NVARCHAR(255)
+AS
+BEGIN
+    DECLARE @Description NVARCHAR(255)
+    SELECT @Description = DiagnosisDescription
+    FROM Diagnosis
+    WHERE DiagnosisID = @DiagnosisID
+    RETURN @Description
+END;
+
+--Here are some triggers for the given database schema.
+
+--Medicine Expiry Trigger
+CREATE TRIGGER tr_Medicine_ExpiryNotification
+ON Medicine
+AFTER UPDATE
+AS
+BEGIN
+    IF UPDATE(ExpiryDate)
+    BEGIN
+        DECLARE @MedicineID INT, @MedicineName NVARCHAR(100), @ExpiryDate DATE
+        SELECT @MedicineID = inserted.MedicineID, @MedicineName = inserted.MedicineName, @ExpiryDate = inserted.ExpiryDate
+        FROM inserted
+        
+        IF @ExpiryDate < GETDATE()
+        BEGIN
+            PRINT 'Medicine ' + @MedicineName + ' with ID ' + CAST(@MedicineID AS NVARCHAR(10)) + ' has expired on ' + CAST(@ExpiryDate AS NVARCHAR(10))
+        END
+        ELSE IF @ExpiryDate < DATEADD(month, 3, GETDATE())
+        BEGIN
+            PRINT 'Medicine ' + @MedicineName + ' with ID ' + CAST(@MedicineID AS NVARCHAR(10)) + ' will expire on ' + CAST(@ExpiryDate AS NVARCHAR(10)) + '. Please reorder.'
+        END
+    END
+END
+
+--Patient Admission Trigger
+CREATE TRIGGER tr_WardAdmission_PatientStatus
+ON WardAdmission
+AFTER INSERT
+AS
+BEGIN
+    UPDATE Patient
+    SET MedicalHistory = MedicalHistory + 'Patient admitted on ' + CAST(GETDATE() AS NVARCHAR(10)) + '. '
+    WHERE PatientID = (SELECT PatientID FROM inserted)
+END
+
+--Surgery Completion Trigger
+CREATE TRIGGER tr_Surgery_CompletionUpdate
+ON Surgery
+AFTER UPDATE
+AS
+BEGIN
+    IF UPDATE(SurgeryDate)
+    BEGIN
+        DECLARE @SurgeryID INT, @SurgeryName NVARCHAR(100), @PatientName NVARCHAR(100), @DoctorName NVARCHAR(100), @SurgeryDate DATE
+        SELECT @SurgeryID = inserted.SurgeryID, @SurgeryName = inserted.SurgeryName, @PatientName = p.PatientName, @DoctorName = d.DoctorName, @SurgeryDate = inserted.SurgeryDate
+        FROM inserted
+        JOIN Patient p ON inserted.PatientID = p.PatientID
+        JOIN Doctor d ON inserted.DoctorID = d.DoctorID
+        
+        PRINT 'Surgery ' + @SurgeryName + ' for patient ' + @PatientName + ' performed by Dr. ' + @DoctorName + ' on ' + CAST(@SurgeryDate AS NVARCHAR(10)) + ' is completed.'
+    END
+END
+
+--Attendance Monitoring Trigger
+CREATE TRIGGER tr_Attendance_MonitorShift
+ON Attendance
+AFTER INSERT
+AS
+BEGIN
+    DECLARE @AttendanceID INT, @StaffName NVARCHAR(100), @Date DATE, @InTime TIME, @OutTime TIME
+    SELECT @AttendanceID = AttendanceID, @StaffName = s.StaffName, @Date = Date, @InTime = InTime, @OutTime = OutTime
+    FROM inserted i
+    JOIN Staff s ON i.StaffID = s.StaffID
+    
+    IF EXISTS (SELECT 1 FROM Staff WHERE StaffID = (SELECT StaffID FROM inserted) AND Shift = 'Morning')
+    BEGIN
+        IF @InTime > '09:00:00' OR @OutTime < '17:00:00'
+        BEGIN
+            PRINT 'Staff ' + @StaffName + ' with ID ' + CAST(@AttendanceID AS NVARCHAR(10)) + ' did not complete the morning shift on ' + CAST(@Date AS NVARCHAR(10))
+        END
+    END
+    ELSE IF EXISTS (SELECT 1 FROM Staff WHERE StaffID = (SELECT StaffID FROM inserted) AND Shift = 'Evening')
+    BEGIN
+        IF @InTime > '17:00:00' OR @OutTime < '01:00:00'
+        BEGIN
+            PRINT 'Staff ' + @StaffName + ' with ID ' + CAST(@AttendanceID AS NVARCHAR(10)) + ' did not complete the evening shift on ' + CAST(@Date AS NVARCHAR(10))
+        END
+    END
+END
+
+--Trigger to automatically set the appointment status to 'Completed' after the appointment time has passed:
+CREATE TRIGGER trgAfterAppointmentTimePassed
+ON Appointment
+AFTER UPDATE
+AS
+BEGIN
+    UPDATE Appointment
+    SET Status = 'Completed'
+    WHERE AppointmentDate < CAST(GETDATE() AS DATE)
+      AND AppointmentTime < CAST(GETDATE() AS TIME)
+      AND Status <> 'Completed';
+END;
+
+
+--Trigger to update room availability after a patient is discharged:
+CREATE TRIGGER trgAfterDischargeUpdate
+ON WardAdmission
+AFTER UPDATE
+AS
+BEGIN
+    DECLARE @WardNumber INT, @Availability BIT;
+    SELECT @WardNumber = WardNumber, @Availability = CASE WHEN DischargeDate IS NOT NULL THEN 1 ELSE 0 END
+    FROM inserted;
+
+    UPDATE Room
+    SET Availability = @Availability
+    WHERE RoomID = @WardNumber;
+END;

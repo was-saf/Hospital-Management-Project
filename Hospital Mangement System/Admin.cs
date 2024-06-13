@@ -83,8 +83,9 @@ namespace Hospital_Mangement_System
                         else
                         {
                             MessageBox.Show("Invalid Username or Password");
+                            Admin admin = new Admin();
+                            admin.Show();
                             this.Hide();
-                            this.Show();
                         }
                     }
                 }
